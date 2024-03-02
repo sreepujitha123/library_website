@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIGNAN's Library</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <img src="image/logo5.png"> VIGNAN'S LIBRARY </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="#featured">New Arrivals</a>
+            <a href="#arrivals">Departments</a>
+            <a href="#reviews">reviews</a>
+            <a href="./feedback.html">feedback</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#feedback" class="fas fa-feedback"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>Welcome to the Library!</h3>
+            <p>If you’re an Engineering student and need a books, Library has wide range of books for different courses. </p>
+            <h2>Services we Offer</h2>
+            <p>
+                <ul>
+                    <li>Book Borrowing : </li>
+                    <p>Take advantage of our lending services and bring home your favorite titles to enjoy at your leisure.</p>
+                    <li>Research Assistance : </li>
+                    <p>Our knowledgeable staff is always on hand to assist you in finding the resources you need for your academic or personal research endeavors.</p>
+                    <li>Events and Workshops : </li>
+                    <p>Stay engaged with our community through our regular events, workshops, and author talks, designed to foster a love of reading and lifelong learning.</p>
+                </ul>
+            </p>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="#" class="swiper-slide"><img src="image/book-1.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-2.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-3.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-4.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-5.png" alt=""></a>
+                <a href="#" class="swiper-slide"><img src="image/book-6.png" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ends  -->
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>new arrivals</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="pdfs/acse.pdf" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href="#"> <img src="image/acse1.png" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h2>Introduction to Machine Learning with Python</h2>
+                    <a href="#" class="btn">add to wishlist</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="pdfs/cse.pdf" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href=""> <img src="image/cse1.png" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h2>Introduction to Algorithms</h2>
+                    <a href="#" class="btn">add to wishlist</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="pdfs/eee.pdf" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href=""><img src="image/eee1.png" alt=""> </a>
+                </div>
+                <div class="content">
+                    <h2>Fundamentals of Electrical Engineering I</h2>
+                    <a href="#" class="btn">add to wishlist</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="pdfs/ece.pdf" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/ece1.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Logic and Computer Design Fundamentals</h2>
+                    <a href="#" class="btn">add to wishlist</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="pdfs/management.pdf" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/management1.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Principles of Management</h2>
+                    <a href="#" class="btn">add to wishlist</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="pdfs/biotech.pdf" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="image/biotech1.png" alt="">
+                </div>
+                <div class="content">
+                    <h2>Molecular Biotechnology</h2>
+                    <a href="#" class="btn">add to wishlist</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- featured section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>Register for latest Events updates</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="submit" value="Register" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- category section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> <span>Departments</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="acseT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/acse.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ACSE</h3>
+                </div>
+            </a>
+
+            <a href="cseT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/cse.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>CSE</h3> 
+                </div>
+            </a>
+
+            <a href="managementT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/management.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Management</h3>
+                </div>
+            </a>
+
+            <a href="civilT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/civil.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Civil</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="biotechT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/biotech.jpg" alt="">
+
+                </div>
+                <div class="content">
+                    <h3>Biotech</h3>  
+                </div>
+            </a>
+
+            <a href="eceT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/ece.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>ECE</h3> 
+                </div>
+            </a>
+
+            <a href="mechanicalT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/mech.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mechanical</h3> 
+                </div>
+            </a>
+
+            <a href="eeeT1.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="image/eee.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>EEE</h3>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- category section ends -->
+
+<!-- deal section starts  -->
+
+<section class="deal">
+
+    <div class="content">
+        <h3>Event of the day</h3>
+        <h1>Reading Challenges</h1>
+        <p>Registrations closes soon.....</p>
+        <a href="regform.html" class="btn">Register now</a>
+    </div>
+
+    <div class="image">
+        <img src="image/challenge.jpg" alt="">
+    </div>
+
+</section>
+
+<!-- deal section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> <span>Student's reviews</span> </h1>
+
+    <div class="swiper reviews-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/pic-1.png" alt="">
+                <h3>ujjwal </h3>
+                <p>The library at our college is a haven for study sessions and research. With its extensive collection and cozy study nooks, it's my go-to spot whenever I need to hit the books.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-2.png" alt="">
+                <h3>marry </h3>
+                <p>As a literature major, the college library is my sanctuary. The tranquil atmosphere, coupled with helpful staff and a vast array of resources, makes it the perfect place to immerse myself in my studies.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-3.png" alt="">
+                <h3>Raghu </h3>
+                <p>The Service is good. Greetings to customer and making the required Books available to Customers is very good.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="image/pic-4.png" alt="">
+                <h3>Pooja </h3>
+                <p>This library have large amount of a books. The engineering study material all semester books are available.then the peacefull and nice book centre.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-5.png" alt="">
+                <h3>Abhinav </h3>
+                <p>"The college library isn't just a resource; it's a lifeline. As an engineering student, I rely on its extensive collection of journals and online databases to fuel my research and stay ahead in my coursework.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/pic-6.png" alt="">
+                <h3>Sidddhi </h3>
+                <p>The library isn't just about books; it's a community. Whether I'm attending a workshop, borrowing textbooks, or simply chatting with the librarians, I always leave feeling more connected and motivated in my academic pursuits.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- reviews section ends -->
+
+<!-- feedback section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> <span>feedback</span> </h1>
+
+    <section class="newsletter">
+
+        <form action="">
+            <h3>give your feedback here...</h3>
+            <a href="./feedback.html" class="btn">Feedback</a>
+            <!-- <a href="./feedback.html"><input type="submit" value="feedback"> -->
+            </a>
+        </form>
+    
+    </section>
+</section>
+
+<!-- feedback section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a> <i class="fas fa-map-marker-alt"></i> Vadlamudi </a>
+            <a> <i class="fas fa-map-marker-alt"></i> Guntur </a>
+            <a> <i class="fas fa-map-marker-alt"></i> Vizag </a>
+            <a > <i class="fas fa-map-marker-alt"></i> Hyderaabad </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="./index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="./arrivals.html"> <i class="fas fa-arrow-right"></i> New Arrivals </a>
+            <a href="./departments.html"> <i class="fas fa-arrow-right"></i> Departments </a>
+            <a href="./reviews.html"> <i class="fas fa-arrow-right"></i> reviews </a>
+            <a href="./feedback.html"> <i class="fas fa-arrow-right"></i> feedback </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a> <i class="fas fa-phone"></i> 9167064054 </a>
+            <a> <i class="fas fa-phone"></i> 77388 44717 </a>
+            <a> <i class="fas fa-envelope"></i> libraryservices@gmail.com </a>
+            <a> <i class="fas fa-envelope"></i> library.ac@gmail.com </a>
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/vignanuniversityofficial?mibextid=ZbWKwL" class="fab fa-facebook-f"></a>
+        <a href="https://www.vignan.ac.in/" class="fab fa-google"></a>
+        <a href="https://www.instagram.com/vignanuniversityofficial?igsh=MWduN2FiaDJjMTF1ag==" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/school/vignan-institute-of-technology-&-sciences/" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="credit"> created by <span>AIML Students</span>copyright &copy;2024 all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
